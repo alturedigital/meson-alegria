@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { isLocale } from "@/lib/i18n/config";
 import { getDictionary } from "@/lib/i18n/get-dictionary";
 import Hero from "@/components/home/Hero";
+import EmblematicosBadge from "@/components/home/EmblematicosBadge";
 import ManifestoGrid from "@/components/home/ManifestoGrid";
 import FoundersBlock from "@/components/home/FoundersBlock";
 import ReservaInline from "@/components/home/ReservaInline";
@@ -22,6 +23,7 @@ export default async function HomePage({
   return (
     <>
       <Hero dict={dict} lang={lang} />
+      <EmblematicosBadge />
       <ManifestoGrid lang={lang} />
       <FoundersBlock lang={lang} />
       <ReservaInline lang={lang} />
