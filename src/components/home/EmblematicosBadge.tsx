@@ -48,7 +48,7 @@ export default function EmblematicosBadge() {
             delay: 1.6,
           },
         }}
-        className="pointer-events-auto absolute right-2 md:right-6 -top-[78px] md:-top-[108px] block w-[88px] md:w-[140px] lg:w-[170px] origin-center"
+        className="pointer-events-auto absolute right-3 md:right-6 -top-[100px] md:-top-[120px] lg:-top-[140px] block w-[140px] md:w-[170px] lg:w-[210px] origin-center"
         style={{
           // Soft cast shadow gives the impression it floats above the page
           filter:
@@ -61,7 +61,7 @@ export default function EmblematicosBadge() {
           width={340}
           height={476}
           priority={false}
-          sizes="(max-width: 768px) 88px, (max-width: 1024px) 140px, 170px"
+          sizes="(max-width: 768px) 140px, (max-width: 1024px) 170px, 210px"
           className="block w-full h-auto select-none"
         />
       </motion.a>
